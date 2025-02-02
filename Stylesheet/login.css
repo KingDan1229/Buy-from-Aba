@@ -1,0 +1,156 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 110vh;
+}
+
+
+
+.all{
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    background: #0057B7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 50px 0;
+}
+
+.all .hero{
+    padding: 30px 50px;
+    width: 320px;
+    position: relative;
+    left: 55px;
+}
+
+.all .hero h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: verdana;
+
+}
+
+
+.all .hero h2 span{
+    color: #ff7700;
+}
+
+.all .hero h2:hover{
+    color:#ff7700;
+}
+
+
+.all .hero h2 span:hover{
+    color: white;
+}
+
+
+
+.all .hero  form  label{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.all .hero input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    /* border: none; */
+    /* border-bottom: 2px solid white; */
+}
+
+
+.all .hero  form  .cr7{
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff7700;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.all .hero  form p{
+    color: white;
+}
+
+.all .hero  form a {
+    color: #ff7700;
+    text-decoration: none;
+}
+
+.all .hero  form  a:hover {
+    text-decoration: underline;
+}
+
+
+.red  {
+    color: red;
+    font-size: 14px;
+    font-family: arial;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+.show {
+    display: block;
+     
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#loginForm button:hover {
+    background: #ff7700;
+}
+
+#loginForm a {
+    color: orange;
+    text-decoration: none;
+}
+
+#loginForm a:hover {
+    text-decoration: underline;
+}

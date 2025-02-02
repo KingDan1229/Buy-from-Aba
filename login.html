@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Stylesheet/login.css">
+</head>
+<body>
+
+   
+<div class="all">
+
+  <div class="hero">  
+
+    <form onsubmit="return formValidation()" action="./index.html">
+        <h2>Log<span>in</span> </h2> <br> <br>
+        <label>Username:</label> 
+        <input type="text" id="username">
+        <br> 
+        <small class="red hide" id="checkUsername">Please Enter Your  Name</small>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" id="email">
+        <br>
+        <small class="red hide" id="checkEmail">Please Enter Your Email</small>
+        <br><br>
+        <label>Password:</label>
+        <input type="password" id="password" >
+        <br>
+        <small class="red hide" id="checkPassword">Please Enter Your Password</small>
+        <br><br>
+        <button type="submit" class="cr7">Login</button>
+        <br> <br>
+        <p>Don't have an account? <a href="./signup.html">SignUp</a> <br></p>
+        
+    </form>
+
+  </div>  
+
+</div>    
+    <script src="./Scripts/login.js"></script>
+</body>
+</html>
